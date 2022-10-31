@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Landing Page */
+.landing-card-container {
+  background-image: url(../images/Login_Android_BG.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 100vh;
+  color: white;
+  border-radius: 20px ;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-card {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  border-radius: 8px;
+  line-height: 1.5;
+  padding: 30px 50px 60px 50px;
+}
+
+.sub-welcome {
+  font-size: 0.8rem;
+}
+
+.welcome-style {
+  font-size: 2.5rem;
+}
+
+.landing-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #063888;
+  color: white;
+  width: 190px;
+  height: 60px;
+  margin: 20px auto;
+  border-radius: 8px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.landing-button:hover {
+  background-color: #3cb0fd;
+}
+
+/* Main Container for centered layout */
+.flex-container {
+  background-color: white;
+  align-items: flex-start;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+/* Mother Container for all divs */
+
+.card-container {
+  background-color: #f0eeee;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  width: 550px;
+  border-radius: 20px;
+}
+
+.card-container2 {
+  background-color: #f0eeee;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  width: 550px;
+  height: 100vh;
+  border-radius: 20px;
+}
+
+
+/* Logo Styles */
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 35px 20px;
+}
+
+img {
+  height: 75px;
+  width: 75px;
+}
+
+/* Location Styles */
+
+.location {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Registration Form Styles */
+
+.regform {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+/* Input Container Styles */
+
+.input-container {
+  text-align: left;
+  margin: 0 auto 10px auto;
+  width: 90%;
+}
+
+.input-item {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto 10px auto;
+  margin-bottom: 1rem;
+}
+
+.input-container-addtext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input,
+select {
+  width: 100%;
+  border: solid #d1cfcf 2px;
+  border-radius: 8px;
+  padding: 0 5px 0;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  height: 2.7rem;
+}
+
+select:required:invalid {
+  color: gray;
+  width: 100%;
+}
+
+label {
+  font-size: 1rem;
+  margin-left: 0.1rem;
+}
+
+.dualcolumn-30 {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.column-30 {
+  width: 30%;
+  margin-right: 15px;
+}
+
+input::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.notered {
+  margin-top: 0.5rem;
+  color: red;
+  font-weight: bold;
+}
+
+.notegreen {
+  margin-top: 0.5rem;
+  color: green;
+  font-weight: bold;
+}
+
+/* Button Style */
+
+.button-container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.registration {
+  justify-content: center;
+}
+
+.edit {
+  justify-content: space-between;
+}
+
+.docforms {
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.namecheck {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.2rem;
+  background: #0066ff;
+  padding: 10px 35px 10px 35px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.reversebtn {
+  background-color: #fff;
+  color: #0066ff;
+  padding: 10px 20px 10px 20px;
+}
+
+.reversebtn:hover {
+  background-color: #3cb0fd;
+  color: #fff;
+}
+
+button {
+  border: none;
+}
+
+/* Arrow Style */
+
+.nav-btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.docforms-arrow {
+  justify-content: flex-start;
+}
+
+.nav-btn {
+  color: #0066ff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 10px;
+}
+
+.nav-btn:hover {
+  background-color: #f9f9f9;
+}
+
+.new {
+  color: #a0a0a0;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+/* UTILITY CLASS */
+.hide {
+  visibility: hidden;
+}
