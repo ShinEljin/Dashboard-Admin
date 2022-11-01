@@ -5,55 +5,6 @@
   font-family: "Montserrat", sans-serif;
 }
 
-/* Landing Page */
-.landing-card-container {
-  background-image: url(../images/Login_Android_BG.png);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 550px;
-  height: 100vh;
-  color: white;
-  border-radius: 20px ;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-.welcome-card {
-  background-color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  border-radius: 8px;
-  line-height: 1.5;
-  padding: 30px 50px 60px 50px;
-}
-
-.sub-welcome {
-  font-size: 0.8rem;
-}
-
-.welcome-style {
-  font-size: 2.5rem;
-}
-
-.landing-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  background-color: #063888;
-  color: white;
-  width: 190px;
-  height: 60px;
-  margin: 20px auto;
-  border-radius: 8px;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.landing-button:hover {
-  background-color: #3cb0fd;
-}
-
 /* Main Container for centered layout */
 .flex-container {
   background-color: white;
@@ -70,20 +21,9 @@
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  width: 550px;
+  width: 500px;
   border-radius: 20px;
 }
-
-.card-container2 {
-  background-color: #f0eeee;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  width: 550px;
-  height: 100vh;
-  border-radius: 20px;
-}
-
 
 /* Logo Styles */
 
@@ -120,7 +60,7 @@ h1 {
 
 .input-container {
   text-align: left;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 4rem auto;
   width: 90%;
 }
 
@@ -173,17 +113,23 @@ input::placeholder {
   font-family: "Poppins", sans-serif;
 }
 
+.noteblack {
+  margin-top: 0.5rem;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 600 ;
+}
 
 .notered {
   margin-top: 0.5rem;
   color: red;
-  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .notegreen {
   margin-top: 0.5rem;
   color: green;
-  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 /* Button Style */
@@ -191,30 +137,7 @@ input::placeholder {
 .button-container {
   display: flex;
   width: 90%;
-  margin: auto;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.registration {
   justify-content: center;
-}
-
-.edit {
-  justify-content: space-between;
-}
-
-.docforms {
-  justify-content: center;
-  margin-top: 200px;
-  margin-bottom: 100px;
-}
-
-.namecheck {
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 .btn {
@@ -225,25 +148,26 @@ input::placeholder {
   font-weight: 600;
   color: #ffffff;
   font-size: 1.2rem;
-  background: #0066ff;
+  background: #033AA9;
   padding: 10px 35px 10px 35px;
   text-decoration: none;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #fff;
+  color: #033AA9 ;
   text-decoration: none;
 }
 
 .reversebtn {
   background-color: #fff;
-  color: #0066ff;
+  color: #033AA9;
   padding: 10px 20px 10px 20px;
 }
 
 .reversebtn:hover {
-  background-color: #3cb0fd;
+  background-color: #033AA9;
   color: #fff;
 }
 
@@ -260,6 +184,7 @@ button {
   width: 85%;
   margin: 0 auto;
   margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 
 .docforms-arrow {
@@ -287,4 +212,30 @@ button {
 /* UTILITY CLASS */
 .hide {
   visibility: hidden;
+}
+
+.height-full {
+  height: 100vh;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.jc-c {
+  justify-content: center;
+  align-items: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inline {
+  display: inline-block;
 }

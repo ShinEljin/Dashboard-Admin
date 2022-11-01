@@ -26,7 +26,7 @@
   </head>
   <body>
     <div class="flex-container">
-      <div class="card-container2">
+      <div class="card-container height-full">
         <div class="logo">
           <img src="./images/Barangay_Seal.png" alt="Manila Seal" />
           <img src="./images/Manila_Seal.png" alt="SK Seal" />
@@ -57,24 +57,15 @@
               <label for="">Middle Name</label>
               <input type="text" required />
             </div>
+            <i class="fa-solid fa-circle-exclamation notered"></i> <p class="notered inline" >Name does not exist</p>
 
-            <div class="input-container-addtext">
-                <p class="notegreen">Record Found</p>
-                <a class="new" href="./register.html">New? Sign up here </a>
-            </div>
-
-            
           </div>
           
-          <div class="button-container namecheck">
-            <button type="submit" class="btn">Search</button>
+          <div class="button-container mx-auto text-center">
+            <button type="submit" class="btn" onclick="window.location.href='edit.html'">Search Record</button>
           </div>
+          <p class="noteblack text-center">No Record yet? <a class="notered" href="register.html">Register here!</a></p>
         </form>
-
-        <div class="nav-btn-container">
-          <a class="nav-btn" href="./index.html"> Back </a>
-          <a class="nav-btn" href="./edit.html"> Next </a>
-        </div>
       </div>
     </div>
   </body>
