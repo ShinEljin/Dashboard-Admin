@@ -89,14 +89,14 @@ select {
   width: 100%;
   border: solid #d1cfcf 2px;
   border-radius: 8px;
-  padding: 0 5px 0;
+  padding: 0 8px 0;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
   height: 2.7rem;
 }
 
 .input-radio {
-  width: 15%;
+  width: 17%;
   height: 1rem;
   margin: 0 auto;
 }
