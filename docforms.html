@@ -26,7 +26,7 @@
   </head>
   <body>
     <div class="flex-container">
-      <div class="card-container height-full">
+      <div class="card-container">
         <div class="logo">
           <img src="./images/Barangay_Seal.png" alt="Manila Seal" />
           <img src="./images/Manila_Seal.png" alt="SK Seal" />
@@ -51,7 +51,6 @@
                 <option value="ID">Barangay ID</option>
                 <option value="indigency">Barangay Indigency</option>
                 <option value="permit">Barangay Permit</option>
-                <option value="others">Others</option>
               </select>
             </div>
 
@@ -64,12 +63,98 @@
                 <option value="others">Others</option>
               </select>
             </div>
+
+            <div class="input-item">
+              <label for="">Specify</label>
+              <input type="text" required />
+            </div>
+
+          </div>
+          
+
+          <!-- Barangay ID -->
+          <hr class="mx-auto">
+          <p class="noteblack w-90 mx-auto">Other Information</p>
+
+          <div class="input-container">
+
+            <div class="input-item">
+              <label for="">Birthdate</label>
+              <input type="date" required />
+            </div>
+
+            <div class="input-item">
+              <label for="">Person to Notify</label>
+              <input type="text" placeholder="Name" required />
+            </div>
+
+            <div class="input-item">
+              <label for="">Relationship</label>
+              <input type="text" required />
+            </div>
+
+            <div class="input-item">
+              <label for="">Mobile Number</label>
+              <input type="tel" required />
+            </div>
+            
           </div>
 
+          <!-- Job Seeker -->
+          <hr class="mx-auto">
+          <p class="noteblack w-90 mx-auto">Other Information</p>
+
+          <div class="input-container">
+
+            <div class="input-item">
+              <label for="">Birthdate</label>
+              <input type="date" required />
+            </div>
+
+            <label for="">Gender</label><br>
+            <div class="input-item text-center flex">
+              
+              <div class="gender-container">
+                <input type="radio" value="Male" class="input-radio" required />
+                <label for="">Male</label>
+              </div>
+
+              <div class="gender-container">
+                <input type="radio" value="Female" class="input-radio" required />
+                <label for="">Female</label>
+              </div>
+
+            </div>
+
+            <div class="input-item">
+              <label for="">School Attainment</label>
+              <select id="docs" name="docs" required>
+                <option value="" disabled selected hidden>- Select -</option>
+                <option value="certificate">Barangay Certificate</option>
+                <option value="ID">Barangay ID</option>
+                <option value="indigency">Barangay Indigency</option>
+                <option value="permit">Barangay Permit</option>
+              </select>
+            </div>
+
+            <div class="input-item">
+              <label for="">Years of Residency</label>
+              <select id="docs" name="docs" required>
+                <option value="" disabled selected hidden>- Select -</option>
+                <option value="medical">Medical Purposes</option>
+                <option value="job">Job Opportunity</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            
+          </div>
+
+          
           <div class="button-container mx-auto text-center">
             <button type="submit" class="btn">Submit</button>
           </div>
         </form>
+      
 
         <div class="nav-btn-container">
           <a class="nav-btn" href="./edit.html"> Back </a>
