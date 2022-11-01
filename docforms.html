@@ -112,19 +112,23 @@
             </div>
 
             <label for="">Gender</label><br>
-            <div class="input-item text-center flex">
+
+            <form action="">
+              <div class="input-item text-center flex">
               
-              <div class="gender-container">
-                <input type="radio" value="Male" class="input-radio" required />
-                <label for="">Male</label>
+                <div class="gender-container">
+                  <input type="radio" value="Male" name="gender" class="input-radio" required />
+                  <label for="">Male</label>
+                </div>
+  
+                <div class="gender-container">
+                  <input type="radio" value="Female" name="gender" class="input-radio" required />
+                  <label for="">Female</label>
+                </div>
+  
               </div>
-
-              <div class="gender-container">
-                <input type="radio" value="Female" class="input-radio" required />
-                <label for="">Female</label>
-              </div>
-
-            </div>
+            </form>
+            
 
             <div class="input-item">
               <label for="">School Attainment</label>
