@@ -5,7 +5,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-hr{
+hr {
   border: none;
   width: 90%;
   border-top: solid #d1cfcf 2px;
@@ -134,7 +134,6 @@ label {
   margin-right: 15px;
 }
 
-
 input::placeholder {
   font-family: "Poppins", sans-serif;
 }
@@ -175,7 +174,7 @@ input::placeholder {
   font-weight: 600;
   color: #ffffff;
   font-size: 1.2rem;
-  background: #033AA9;
+  background: #033aa9;
   padding: 10px 35px 10px 35px;
   text-decoration: none;
   cursor: pointer;
@@ -183,18 +182,18 @@ input::placeholder {
 
 .btn:hover {
   background: #fff;
-  color: #033AA9 ;
+  color: #033aa9;
   text-decoration: none;
 }
 
 .reversebtn {
   background-color: #fff;
-  color: #033AA9;
+  color: #033aa9;
   padding: 10px 20px 10px 20px;
 }
 
 .reversebtn:hover {
-  background-color: #033AA9;
+  background-color: #033aa9;
   color: #fff;
 }
 
@@ -242,7 +241,8 @@ button {
 }
 
 .height-full {
-  height: 100%;
+  min-height: -webkit-fill-available;
+  /* height: 100%; */
 }
 
 .mx-auto {
